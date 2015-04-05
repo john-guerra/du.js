@@ -1,0 +1,8 @@
+{
+  "name": "localTreeMap",
+  "version": "0.0.1",
+  "dependencies": {
+    "d3": "3",
+    "express": "^4.12.3"
+  }
+}

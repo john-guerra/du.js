@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Zoomable Treemaps</title>
+<style>
+
+/*#chart {
+  width: 960px;
+  height: 500px;
+  background: #ddd;
+}
+
+text {
+  pointer-events: none;
+}
+
+.grandparent text {
+  font-weight: bold;
+}
+
+rect {
+  fill: none;
+  stroke: #fff;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+.grandparent rect {
+  fill: orange;
+}
+
+.grandparent:hover rect {
+  fill: #ee9700;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+.children:hover rect.child {
+  fill: #bbb;
+}*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+</style>
+<header>
+</header>
+
+<h1>Zoomable Treemaps</h1>
+
+<button id="btnRefresh"> refresh</button>
+<div id="chart"></div>
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="treemap2.js"> </script>
